@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container-fluid{
+    padding: 0;
+    justify-content: center;
+    
+    
+}
+
+
+
+.custom-nav{
+    background-color: #E6889A;
+    height: 90px;
+    width: 100%;
+}
+
+.logo{
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.custom-form{
+    margin-left: 115px;
+}
+
+.custom-form input{
+    width: 585px;
+    height: 37px;
+}
+
+.custom-form ::after{
+    background-image: url(../imgs/search.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 40px;
+}
+
+.icone{
+    position: relative;
+    padding-top: 15px;
+    width: 32px;
+    height: 44px;
+    left: 35px;
+    margin-top: 8px;
+}
+
+.cart p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login-cadatro p {
+    text-align: center;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.login-cadatro p a:hover{
+    color: gray;
+}
+
+.link-login-cadastro{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.custom-btn{
+    margin-left: 100px;
+    background-color: #9ACCFF;
+    width: 149px;
+    height: 37px;
+}
+
+.cart ::before {
+    background-image: url(../imgs/cart.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 40px;
+    right: 119px;
+}
+
+.login-cadatro{
+    margin-right: 30px;
+}
+
+
+
+/* frete gratis */
+
+.menSuperior {
+    background-color: #F7D794;
+    text-align: center;
+    color: white;
+    height: 25px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+
+/* header */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.custom-nav{
+    background-color: #E6889A;
+    height: 90px;
+}
+
+.logo{
+    padding-bottom: -20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+.custom-form input{
+    width: 585px;
+    height: 37px;
+}
+
+.custom-form ::after{
+    background-image: url(../imgs/search.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 40px;
+}
+
+.icone{
+    position: relative;
+    padding-top: 15px;
+    width: 32px;
+    height: 44px;
+    left: 35px;
+    margin-top: 8px;
+}
+
+.cart p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login-cadatro p{
+    text-align: center;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.custom-btn{
+    margin-left: 100px;
+    background-color: #9ACCFF;
+    width: 149px;
+    height: 37px;
+}
+
+.cart ::before {
+    background-image: url(../imgs/cart.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 40px;
+    right: 356px;
+}
+
+.login-cadatro{
+    margin-right: 30px;
+} */
+
+
+
+
+/* NAV */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Comfortaa', cursive;
+    background-color: white;
+    
+}
+
+.menu-a li a, .dropdown-toggle{
+    list-style: none;
+    text-decoration-line: none;
+    color: #E6889A;
+    font-weight: bold;
+}
+
+.menu-a li a:hover{
+    color: grey;
+}
+
+.dropdown-toggle:hover{
+    color:grey;
+}
+
+.dropdown-toggle{
+padding: 0.5rem 1rem;
+text-decoration-line: none;
+}
+
+/* BANNER */
+
+.banner{
+    height: 300px;
+    width: 100%;
+}
+
+.banner-entrega{
+    padding-top: 15px;
+}
+
+
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+@media screen {
+    
+ .navbar-toggler{
+    /* border: 1px solid gray;
+    background-color: gray; */
+    border: 1px solid #ff00814a;
+    background-color: #ff00814a;
+}
+
+/* .navbar-toggler-icon{
+    background-color: blanchedalmond;
+}  */
+
+.navbar-collapse{
+    flex-grow: 0;
+    background-color: #E6889A;
+}
+}
+
+@media (max-width: 992px){ 
+   .custom-form input{
+       width: 278px;
+       margin-left: 20px;
+   }
+
+   .navbar-collapse{
+       display: flex;
+       height: 44px;
+       padding-bottom: 15px;
+   }
+
+   .custom-btn{
+       position: relative;
+       right: 55px;
+   }
+
+   .teste{
+       display: flex;
+   }
+
+   .icone{
+       width: 26px;
+       height: 47px;
+       left: 20px;
+       margin-bottom: 32px;
+   }
+
+   .login-cadatro{
+       font-size: 9px;
+   }
+
+   .login-cadatro p{
+       display: none;
+   }
+
+   .custom-nav{
+       height: 108px;
+   }
+
+   .cart ::before{
+       left: 14px;
+   }
+
+   .logo{
+       height: 100px;
+   }
+    
+}
+
+@media (min-width: 993px){
+    .navbar-collapse{
+        height: 90px;
+        width: 1219px;
+    }
+
+    .custom-form input{
+        margin-left: -16px;
+    }
+
+    .navbar .container-fluid{
+        justify-content: flex-start;
+    }
+
+    .cart ::before{
+        right: 362px;
+    }
+
+    .login-cadatro{
+        margin-left: 106px;
+        font-size: 15px;
+    }
+
+    .logo{
+        height: 125px;
+        padding-top: 16px;
+    }
+}

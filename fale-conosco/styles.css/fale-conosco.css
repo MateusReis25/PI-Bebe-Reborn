@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@200;300&display=swap');
+
+*{
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-color: #ffcedf8f;
+}
+
+hr{
+    width: 600px;
+}
+
+.custom-button{
+    background-color: #9ACCFF;
+    width: 80px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 183px;
+    /* border-radius: 30%; */
+    height: 40px;
+    text-align: center;
+    /* padding-bottom: 40px;*/
+}
+
+.card{
+    width: 700px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   /*  margin-top: 100px; */
+   margin-bottom: 40px;
+}
+
+.text-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.card-input{
+    width: 600px;
+}
+
+.custom-input{
+    /* width: 375px; */
+    margin-left: 10px;
+}
+
+.custom-label{
+    margin-left: 25px;
+}
+
+.custom-input input{
+    font-size: 12px;
+    background-color: #f7d8948a;
+}
+
+.input-login{
+    margin-left: 29px;
+}
+
+.form-control:disabled{
+    background-color: #f7d8948a;
+}
+
+.infos-loja{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.input-message{
+    height:70px;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@200;300&display=swap');
+
+*{
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-color: #ffcedf8f;
+}
+
+.custom-button{
+    background-color: #9ACCFF;
+    width: 210px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    /* border-radius: 30%; */
+    height: 40px;
+    text-align: center;
+    /* padding-bottom: 40px; */
+}
+
+.card{
+    width: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   /*  margin-top: 100px; */
+}
+
+.text-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.line-title-atualizar{
+    width: 398px;
+}
+
+.card-input{
+    width: 400px;
+}
+
+.custom-input{
+    width: 375px;
+    margin-left: 10px;
+}
+
+.custom-input input{
+    font-size: 12px;
+    background-color: #f7d8948a;
+}
+
+.custom-button-cancelar{
+    background-color: white;
+    border: none;
+    width: 210px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.custom-button-cancelar p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.line-cancelar{
+    margin-top: 0; 
+    margin-bottom: 10px;
+}
+
+.text-esqueci-senha a{
+    color: black;
+}

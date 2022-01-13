@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@200;300&display=swap');
+
+*{
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-color: #ffcedf8f;
+}
+
+.img-checked{
+    width: 102px;
+    height: 102px;
+    /* justify-content: center; */
+    /* vertical-align: middle; */
+    margin-left: 630px;
+    margin-top: 50px;
+}
+
+.table{
+    width: 730px;
+    background-color: #F4F4F4;
+    margin-left: 320px;
+    margin-bottom: 50px;
+}
+
+.p-sucesso{
+    /* margin-left: 350px; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.p-sucesso-title{
+    font-weight: bold;
+}

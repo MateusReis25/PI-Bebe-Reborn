@@ -1,0 +1,46 @@
+*{
+    max-width: 100%;
+}
+
+body{
+    background-color: #ffcedf8f;
+
+}
+
+.form-avaliacao{
+      
+    background-color: white;
+    padding-top: 50px;
+    width: 700px;
+    height: 600px;
+    padding-left: 14px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.form-select{
+    width: 40%;
+}
+
+.form-control{
+    width: 60%;
+}
+
+.avaliacao{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+hr{
+    margin-right: 10px;
+}
+
+.foto-avaliacao{
+    width: 30px;
+    height: 30px;
+}

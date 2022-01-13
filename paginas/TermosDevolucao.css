@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@200;300&display=swap');
+
+* { 
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+p {
+     text-align: start;
+     font-family: 'Comfortaa', cursive;
+    }
+
+b { 
+    font-weight:bold;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    padding: 11px;
+}
+
+h3 h4 {
+    padding-top: 24px;
+}
+
+#BodyPrincipal {
+    margin-left: 20px;
+}
+/* Apagar assim que criar o CSS NAV */
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Comfortaa', cursive;
+    background-color: white;
+    
+}
+
+.menu-a li a, .dropdown-toggle{
+    list-style: none;
+    text-decoration-line: none;
+    color: #E6889A;
+    font-weight: bold;
+}
+
+.menu-a li a:hover{
+    color: grey;
+}
+
+.dropdown-toggle:hover{
+    color:grey;
+}
+
+.dropdown-toggle{
+padding: 0.5rem 1rem;
+text-decoration-line: none;
+}
+
+/* apagar assim que possivel */

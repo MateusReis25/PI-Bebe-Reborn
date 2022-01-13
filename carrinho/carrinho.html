@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../header/styles.css/header.css">
+    
+    <link rel="stylesheet" href="../carrinho/carrinho.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <title>CARRINHO</title>
+</head>
+
+<body>
+
+    <!-- FRETE GRATIS -->
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="menSuperior">
+        FRETE GRÁTIS + BRINDE PARA COMPRAS ACIMA DE R$400,00
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom-nav">
+            <div class="container-fluid">
+              <a href="../header/index.html"><img class="logo" src="../header/imgs/logo-pimpolhos-certo.gif" alt="" width="137" height="90"></a>
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex custom-form">
+                  <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+                </form>
+
+                <button type="button" class="btn custom-btn cart">
+                    <p> | 0,00</p>
+                </button>
+
+                <div class="login-cadatro">
+                    <img src="../header/imgs/baby-user.png" alt="" class="icone">  
+                    <p> <a class="link-login-cadastro" href="../login/index.html"> login ou</a>   <br> <a class="link-login-cadastro" href="../cadastro/index.html">cadastre-se</a></p>
+                  </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+</header>
+
+
+
+  <!-- NAV -->
+
+  <ul class="menu nav menu-a"><a class="nav-link-nav dropdown-toggle" href="#" id="navbarDropdown" role="button"
+      data-bs-toggle="dropdown" aria-expanded="false">
+      Categorias
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="../paginas/Produtos.html">Meninas</a></li>
+      <li><a class="dropdown-item" href="../paginas/ProdutosMeninos.html">Meninos</a></li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
+      <li><a class="dropdown-item" href="../paginas/Acessorios.html">Acessórios</a></li>
+    </ul>
+
+    <!-- <li class="nav-item menu-li">
+      <a class="nav-link " href="#">Categorias</a>
+    </li> -->
+    <li class="nav-item menu-li">
+      <a class="nav-link menu-a" href="../meus-pedidos/index.html">Meus Pedidos</a>
+    </li>
+    <li class="nav-item menu-li">
+      <a class="nav-link menu-a" href="../paginas/TermosDevolucao.html">Trocas & Devoluções</a>
+    </li>
+    <li class="nav-item menu-li">
+      <a class="nav-link menu-a" href="../fale-conosco/index.html">Atendimento</a>
+    </li>
+    <li class="nav-item menu-li">
+      <a class="nav-link menu-a" href="../meu-Perfil/meuperfil.html">Meu Perfil</a>
+    </li>
+  </ul>
+
+    <!-- carrinho -->
+
+
+    <div class="container">
+        <div class="carrinho">
+            <p class="resumo">Resumo do pedido</p>
+            <div class="sub-menu col-12">
+                <ul class="sub">
+                    <li class="cat-resumo-1">Produtos</li>
+                    <li class="desc">Descrição</li>
+                    <li class="cat-resumo">Preço unitario</li>
+                    <li class="cat-resumo">Quantidade</li>
+                    <li class="cat-resumo">Subtotal</li>
+                    <li class="cat-resumo">Excluir</li>
+                </ul>
+            </div>
+
+            <div class="menu-produto col-12">
+                <ul class="sub-produto">
+                    <li class="img-produto"><img src="../card/img-card-bonecas/GABI1.jpg" width="100px" height="100px">
+                    </li>
+                    <li class="descricao-produto">Alice com girafinha</li>
+                    <li class="sub-preco">R$999,99</li>
+                    <li class="qtd"><input type="number"></input></li>
+                    <li class="sub-total">R$999,99</li>
+                    <li class="lixeira"><img src="./img-carrinho/lixeira-de-reciclagem (1).png" width="30px"
+                            height="30px"></li>
+                </ul>
+
+                <hr>
+
+                <ul class="sub-produto">
+                    <li class="img-produto"><img src="../card/img-card-bonecas/baby1 (2).jpg" width="100px" height="100px">
+                    </li>
+                    <li class="descricao-produto">Gabi com girafinha</li>
+                    <li class="sub-preco">R$999,99</li>
+                    <li class="qtd"><input type="number"></input></li>
+                    <li class="sub-total">R$599,99</li>
+                    <li class="lixeira"><img src="./img-carrinho/lixeira-de-reciclagem (1).png" width="30px"
+                            height="30px"></li>
+                </ul>
+            </div>
+
+            <div class="sub-menu col-12">
+                <ul class="frete">
+                    <li class="cal-frete">Calcule o frete</li>
+                    <li class="btn-cal"><input type="text"></input></li>
+                    <li class="cep">Não sei meu cep</li>
+                </ul>
+                <ul class="total">
+                    <li class="vl-total">Total</li>
+                    <li class="avista">R$ 1.599,90</li>
+                    <li class="vl-parcelado">Ou em 10x de R$ 159,99</li>
+                </ul>
+            </div>
+
+            <div class="botao-comprar col-12">
+
+                <a href="../header/index.html"><button type="button" class="btn-continuar btn btn-primary btn-lg">Continuar comprando</button></a>
+                <a href="../login/index.html"><button type="button" class="btn-finalizar btn  btn-secondary btn-lg">Finalizar compra</button></a>
+            </div>
+
+
+        </div>
+
+    </div>
+<!-- 
+    CARD DE PRODUTOS RELACIONADOS -->
+
+
+    <div class="relacionados">
+        <p class="produtos-relacionados">Produtos relacionados</p>
+
+        <div class="cards">
+            <div class="container-card">
+                <ul class="lista-produtos">
+                    <li class="item-produto">
+                        <div class="fav">
+                            <a class="fav-icon"><img src="../card/img-card-bonecas/heart (2).png" width="20px"
+                                    height="20px"></a>
+                        </div>
+                        <img src="../card/img-card-bonecas/chupetaazul.jpg" class="imagem-produto" width="150" height="150">
+                        <div class="nome-produto">Chupeta azul<br>
+                            </div>
+                        <br>
+                        <div class="precos">
+                            <div class="preco">R$ 39,00</div>
+                            <!-- <div class="parcelado">OU 10X DE R$ 61,90</div> -->
+                        </div>
+
+                        <a href="../carrinho/carrinho.html"><button type="button" class="comprar">Comprar</button></a>
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container-card">
+                <ul class="lista-produtos">
+                    <li class="item-produto">
+                        <div class="fav">
+                            <a class="fav-icon"><img src="../card/img-card-bonecas/heart (2).png" width="20px"
+                                    height="20px"></a>
+                        </div>
+                        <img src="../card/img-card-bonecas/chupetarosa.jpg" class="imagem-produto" width="150" height="150">
+                        <div class="nome-produto">Chupeta rosa<br>
+                           </div>
+                        <br>
+                        <div class="precos">
+                            <div class="preco">R$ 39,00</div>
+                            <!-- <div class="parcelado">OU 10X DE R$ 49,90</div> -->
+                        </div>
+
+                        <a href="../carrinho/carrinho.html"><button type="button" class="comprar">Comprar</button></a>
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container-card">
+                <ul class="lista-produtos">
+                    <li class="item-produto">
+                        <div class="fav">
+                            <a class="fav-icon"><img src="../card/img-card-bonecas/heart (2).png" width="20px"
+                                    height="20px"></a>
+                        </div>
+                        <img src="../card/img-card-bonecas/girafarosa.jpg" class="imagem-produto" width="150" height="150">
+                        <div class="nome-produto">Girafinha rosa<br>
+                            </div>
+                        <br>
+                        <div class="precos">
+                            <div class="preco">R$ 69,00</div>
+                            <!-- <div class="parcelado">OU 10X DE R$ 61,90</div> -->
+                        </div>
+
+                        <a href="../carrinho/carrinho.html"><button type="button" class="comprar">Comprar</button></a>
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container-card">
+                <ul class="lista-produtos">
+                    <li class="item-produto">
+                        <div class="fav">
+                            <a class="fav-icon"><img src="../card/img-card-bonecas/heart (2).png" width="20px"
+                                    height="20px"></a>
+                        </div>
+                        <img src="../card/img-card-bonecas/roupinhaazul.jpg" class="imagem-produto" width="150" height="150">
+                        <div class="nome-produto">Roupinha azul<br>
+                            </div>
+                        <br>
+                        <div class="precos">
+                            <div class="preco">R$ 89,00</div>
+                            <!-- <div class="parcelado">OU 10X DE R$ 61,90</div> -->
+                        </div>
+
+                        <a href="../carrinho/carrinho.html"><button type="button" class="comprar">Comprar</button></a>
+
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="container-card">
+                <ul class="lista-produtos">
+                    <li class="item-produto">
+                        <div class="fav">
+                            <a class="fav-icon"><img src="../card/img-card-bonecas/heart (2).png" width="20px"
+                                    height="20px"></a>
+                        </div>
+                        <img src="../card/img-card-bonecas/penteazul.jpg" class="imagem-produto" width="150" height="150">
+                        <div class="nome-produto">Pentinho azul<br>
+                            </div>
+                        <br>
+                        <div class="precos">
+                            <div class="preco">R$ 49,00</div>
+                            <!-- <div class="parcelado">OU 10X DE R$ 61,90</div> -->
+                        </div>
+
+                        <a href="../carrinho/carrinho.html"><button type="button" class="comprar">Comprar</button></a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+            <div class="footer">
+              <div class="coluna-1">
+                <ul class="nav flex-column teste">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../login/index.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../cadastro/index.html">Cadastre-se</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../esqueci-minha-senha/index.html">Recuperar senha </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../fale-conosco/index.html">Fale Conosco</a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="coluna-2">
+                <ul class="nav flex-column teste">
+                  <li class="nav-item ">
+                    <a class="nav-link" style aria-current="page" href="../paginas/TermosDevolucao.html">Termos de serviço</a>
+                  </li>
+      
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/TermosDevolucao.html">Politica de privacidade</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Politica de cookies </a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="coluna-3">
+                <ul class="nav flex-column teste">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../paginas/TermosDevolucao.html">Trocas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/TermosDevolucao.html">Devoluções</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../fale-conosco/index.html">Sugestões </a>
+                  </li>
+                </ul>
+              </div>
+      
+      
+              <!-- REDES SOCIAIS -->
+      
+      
+              <div class="redes">
+      
+                <p>Siga a gente nas redes sociais</p>
+      
+                <ul class="nav flex-column">
+                  <li class="nav-item-img">
+                    <a class="img-footer" href="#"><img src="../footer/img-footer/instagram (3).png" height="30px"
+                        width="30px"></a>
+                    <a class="img-footer" href="#"><img src="../footer/img-footer/facebook (3).png" height="30px"
+                        width="30px"></a>
+                    <a class="img-footer" href="#"><img src="../footer/img-footer/whatsapp (1).png" height="30px"
+                        width="30px"></a>
+                    <a class="img-footer" href="#"><img src="../footer/img-footer/youtube (1).png" height="30px"
+                        width="30px"></a>
+                  </li>
+                </ul>
+      
+      
+                <!-- PAGAMENTO -->
+      
+                <hr>
+                <p>Pague com </p>
+      
+                <ul class="nav flex-column">
+                  <li class="nav-item-img">
+                    <a class="img-footer" href="#"><img src="../footer/img-footer/logo-pix-icone-256.png" height="35px"
+                        width="35px"></a>
+                    <a class="img-footer" href="#"><img src="../footer/img-footer/icons8-logótipo-da-mastercard-48.png"
+                        height="40px" width="40px"></a>
+                    <a class="img-footer" href="#"><img src="../footer/img-footer/visa (1).png" height="40px"
+                        width="40px"></a>
+                    <a class="img-footer" href="#"><img src="../footer/img-footer/american-express (1).png" height="40px"
+                        width="40px"></a>
+                    <a class="img-footer" href="#"><img src="../footer/img-footer/icons8-boleto-bankario-48.png" height="35px"
+                        width="35px"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      
+      
+            <!-- copyright -->
+      
+      
+            <div class="copyright">
+              <hr>
+              <p class="devs">
+      
+                Desenvolvido por grupo Pimpolhos <br>
+                RD - Quero ser dev
+              </p>
+            </div>
+          </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
