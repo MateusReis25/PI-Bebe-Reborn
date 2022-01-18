@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.nome{
+    font-size: 28px; 
+}
+
+.nome hr{
+    width: 300px;
+    height: 2px;
+    background-color: black;
+    opacity: 1;
+    margin: 3px 0px;
+
+}
+
+.produtosFav{
+   
+    margin: 20px 0px;
+    height: 100%;
+     
+}
+
+.produtoFav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.cod{
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.nomeBB{
+    font-size: 18px;
+}
+
+.produtoFav button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.lineVertical{
+    width: 25px;
+    height: 50px;
+    font-size: 1px;
+    border-left: 2px solid black;
+}
+
+.btnCarrinho{
+    background-color: #9CF38E;
+    font-size: 14px;
+    height: 40px;
+    display: flex;
+    width: 175px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.descricao{
+    margin-left: 15px;
+}
+
+
+.babyImage{
+    width:819px;
+
+}
+
+@media (max-width: 768px){
+    .produtoFav{
+        justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+}
+
+
+
+

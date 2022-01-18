@@ -1,0 +1,25 @@
+body{
+    background-color: #ffcedf8f;
+
+}
+
+
+
+
+.produtosFav.row{
+  align-content: center;
+  flex-direction: column;
+}
+
+
+
+
+
+hr{
+    margin-right: 10px;
+}
+
+.foto-avaliacao{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@200;300&display=swap');
+
+*{
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Comfortaa', cursive;
+}
+
+.hr-title{
+    width: 300px;
+    margin-top: 0;
+    margin-left: 106px;
+}
+
+.cart{
+    height: 30px;
+    width: 30px;
+}
+
+.dados-pedido-title{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.container-conteudo{
+    border: 1px solid #E7E6E6;
+    border-radius: 10px;
+    padding-top: 15px;
+    
+    background-color: #e7e6e66b;
+}
+
+.container-conteudo .row{
+    align-items: center;
+    
+}
+
+
+.custom-btn-meus-pedidos{
+    
+    background-color: #9ACCFF;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 68%;
+    padding: 6%;
+}
+
+.container-meus-pedidos{
+    border: 1px solid #E7E6E6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+   
+  
+}
+
+.title{
+    margin-left: 108px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+.footer{
+    background-color: #E6889A;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    
+    
+}
+
+
+footer.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 6px;
+    margin-bottom: 4px;
+    list-style: none;
+}
+
+a, .redes, .nav-link, .pagamento, .nav{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.teste li a {
+    color: white;
+    
+}
+
+.teste li a:hover{
+    color:grey;
+}
+
+/* .ul li a .flex-column{
+
+}
+.nav-link.active{
+    color: white;
+} */
+
+
+.redes{ 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.redes li{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+
+.nav-item-img{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: -7px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 6px;
+    margin-bottom: 10px;
+    list-style: none;
+   
+}
+
+.pagamento{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+   
+}
+
+.redes p{
+    display: flex;
+    justify-content: start;
+}
+
+.devs{
+    background-color: #E6889A ;
+    font-family: 'Comfortaa', cursive;
+    color: rgba(255, 255, 255, 0.637);
+    
+}
+
+
+
+.copyright{
+    background-color: #E6889A ;
+    height: 97px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.637);
+
+}
+
